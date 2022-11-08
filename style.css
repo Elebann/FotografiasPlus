@@ -1,0 +1,169 @@
+:root{
+    --isabelline: #EDEDE9;
+    --pale-silver: #D6CCC2;
+    --linen: #F5EBE0;
+    --champagne-pink: #E3D5CA;
+    --desert-sand: #D5BDAF;
+    --negro: #000000;
+    --blanco: #FFFFFF
+    /* https://coolors.co/edede9-d6ccc2-f5ebe0-e3d5ca-d5bdaf */
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+    transition: all 1s;
+}
+
+input[type="submit"]{
+    border: none;
+    background: var(--linen);
+}
+
+.container{
+    margin: auto;
+    max-width: 87.5rem;
+}
+
+body{
+    background: var(--isabelline);
+}
+
+#header{
+    background: var(--isabelline);
+    text-align: center;
+}
+
+.logo{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+nav a{
+    font-family: 'Hind Madurai', sans-serif;
+    text-decoration: none;
+    color: var(--negro);
+    margin-bottom: 0.625rem;
+}
+
+nav a:hover{
+    color: var(--desert-sand);
+}
+
+/* Comienzo Hero */
+
+#hero{
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)),url(./media/hero.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#hero .container h1{
+    font-size: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#hero .container p{
+    font-family: 'Lora', serif;
+    font-size: 1.5rem;
+}
+
+.introduction{
+    margin: 0 1rem;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.625rem;
+    color: var(--blanco);
+}
+
+/* Comienzo sobre mi */
+
+#sobre-mi{
+    padding: 1rem;
+}
+
+#sobre-mi h3{
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#sobre-mi .img{
+    display: none;
+}
+
+#sobre-mi .desc{
+    line-height: 2rem;
+    text-align: center;
+    font-family: 'Hind Madurai', sans-serif;
+}
+
+/* Mejores fotos */
+
+#mejores-fotos{
+    background: var(--pale-silver);
+}
+
+#mejores-fotos h3{
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 1rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#mejores-fotos .text-desktop{
+    display: none;
+}
+
+.img-container{
+    /* max-height: 15rem; */
+    /* height: 15rem; */
+    display: flex;
+    justify-content: space-between;
+    /* background: var(--desert-sand); */
+    padding: 1rem 0;
+    /* margin: 1rem 0; */
+    overflow-x: auto;
+}
+
+.img-container::-webkit-scrollbar{
+    width: 0;
+}
+
+.carta{
+    border-radius: .5rem;
+    min-height: 13rem;
+    min-width: 19rem;
+    margin: 0 1rem;
+    /* box-shadow: 5px 5px 5px var(--desert-sand); */
+    background-size: cover;
+    background-position: center;
+}
+
+.carta:first-child{
+    background-image: url(./media/best1.jpg);
+}
+
+.carta:nth-child(2){
+    background-image: url(./media/best2.png);
+}
+.carta:nth-child(3){
+    background-image: url(./media/best3.jpg);
+}
+.carta:nth-child(4){
+    background-image: url(./media/best4.jpg);
+}
