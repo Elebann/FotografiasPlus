@@ -1,0 +1,32 @@
+@media (min-width: 768px){
+    .container{
+        margin: auto;
+        max-width: 1400px;
+    }
+
+    .desktop-header{
+        padding: 0 1rem;
+        display: flex;
+        justify-content: space-between;
+    }  
+
+    nav{
+        gap: 2rem;
+        flex-direction: row;
+    }
+
+    nav a{
+        margin: auto;
+        font-size: 1.2rem;
+        transition: .2s;
+    }
+
+    nav a:hover{
+        transform: scale(1.1);
+        color: var(--desert-sand);
+    }
+
+    .logo{
+        font-size: 2rem;
+    }
+}
