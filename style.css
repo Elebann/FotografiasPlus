@@ -144,7 +144,7 @@ nav a:hover{
     width: 0;
 }
 
-.carta, .carta2{
+.carta, .carta2, .carta3{
     border-radius: .5rem;
     min-height: 13rem;
     min-width: 19rem;
@@ -194,7 +194,32 @@ nav a:hover{
     background-image: url(./media/recent4.jpg);
 }
 
+/* configuracion */
+
 #configuracion{
     padding: 1rem 0;
     background: var(--linen);
+}
+
+.carta3:first-child{
+    background-image: url(./media/config1.jpg);
+}
+
+.carta3:nth-child(2){
+    background-image: url(./media/config2.jpg);
+}
+.carta3:nth-child(3){
+    background-image: url(./media/config3.jpg);
+}
+.carta3:nth-child(4){
+    background-image: url(./media/config4.jpg);
+}
+
+.config-detalle{
+    margin-top: 1rem;
+    font-size: 2rem;
+    font-family: 'Hind Madurai', sans-serif;
+    text-align: center;
+    color: var(--blanco);
+    text-shadow: 0 0 10px var(--negro);
 }
