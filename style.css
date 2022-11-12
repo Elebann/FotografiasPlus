@@ -144,7 +144,7 @@ nav a:hover{
     width: 0;
 }
 
-.carta{
+.carta, .carta2{
     border-radius: .5rem;
     min-height: 13rem;
     min-width: 19rem;
@@ -166,4 +166,35 @@ nav a:hover{
 }
 .carta:nth-child(4){
     background-image: url(./media/best4.jpg);
+}
+
+/* seccion fotos recientes */
+#fotos-recientes{
+    margin: 1rem 0;
+}
+
+#fotos-recientes .container h2,
+#configuracion .container h2{
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.carta2:first-child{
+    background-image: url(./media/recent1.jpg);
+}
+
+.carta2:nth-child(2){
+    background-image: url(./media/recent2.jpg);
+}
+.carta2:nth-child(3){
+    background-image: url(./media/recent3.jpg);
+}
+.carta2:nth-child(4){
+    background-image: url(./media/recent4.jpg);
+}
+
+#configuracion{
+    padding: 1rem 0;
+    background: var(--linen);
 }
