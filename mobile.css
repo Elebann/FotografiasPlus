@@ -103,7 +103,17 @@ nav a:hover{
 }
 
 #sobre-mi .img{
-    display: none;
+    margin: .625rem auto;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 50%;
+    align-items: center;
+}
+
+#sobre-mi .img img{
+    margin: 0 auto;
+    height: 100%;
 }
 
 #sobre-mi .desc{
@@ -236,7 +246,7 @@ form{
     gap: 1.5rem;
 }
 
-input[type="email"], textarea{
+input[type="email"], input[type="text"], textarea{
     font-family: 'Hind Madurai', serif;
     margin-bottom: 1rem;
     border-radius: .5rem;

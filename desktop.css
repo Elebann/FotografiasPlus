@@ -19,22 +19,30 @@
         justify-content: space-between;
     }  
 
-    nav{
+    .menu{
+        display: flex;
+        position: relative;
+        width: auto;
         gap: 2rem;
         flex-direction: row;
     }
 
-    nav a{
+    .menu a{
         margin: auto;
         font-size: 1.2rem;
         transition: .2s;
     }
 
-    nav a:hover{
+    .menu a:hover{
         transform: scale(1.1);
     }
 
     .logo{
         font-size: 2rem;
+    }
+
+    #sobre-mi, #agendar-sesion{
+        margin: auto;
+        max-width: 50rem;
     }
 }
