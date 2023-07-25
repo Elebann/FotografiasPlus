@@ -25,31 +25,41 @@ body{
 }
 
 #header{
-    background: var(--isabelline);
     text-align: center;
 }
 
 .logo{
+    justify-content: space-between;
+    display: flex;
     font-family: 'Montserrat', sans-serif;
     font-size: 1.5rem;
-    margin: 1rem 0;
+    margin: 1rem;
+}
+
+.burger-icon:hover{
+    cursor: pointer;
 }
 
 nav{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    background: var(--isabelline);
 }
 
 nav a{
     font-family: 'Hind Madurai', sans-serif;
     text-decoration: none;
     color: var(--negro);
-    margin-bottom: 0.625rem;
+    margin: 0.625rem 0;
 }
 
 nav a:hover{
     color: var(--desert-sand);
+}
+
+.active{
+    display: none;
 }
 
 /* Comienzo Hero */

@@ -1,7 +1,16 @@
 @media (min-width: 768px){
+
+    .burger-icon{
+        display: none;
+    }
+
     .container{
         margin: auto;
         max-width: 1400px;
+    }
+
+    .introduction{
+        padding: 1rem;
     }
 
     .desktop-header{
@@ -23,7 +32,6 @@
 
     nav a:hover{
         transform: scale(1.1);
-        color: var(--desert-sand);
     }
 
     .logo{
